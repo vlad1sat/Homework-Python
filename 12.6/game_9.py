@@ -2,7 +2,6 @@ import random
 
 
 def rock_paper_scissors():
-    # Здесь будет игра "Камень, ножницы, бумага"
     user_command = int(input("Выберите действие: 0 - Ножницы, 1 - Бумага, 2 - Камень: "))
     computer_move = random.randint(0, 2)
     if user_command > 2 or user_command < 0:
