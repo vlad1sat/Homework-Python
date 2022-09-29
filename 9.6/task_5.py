@@ -20,5 +20,5 @@ while True:
             if position[0] >= 15:
                 continue
             position[0] += 1
-        case '_':
+        case _:
             print("Некорректная команда!")
